@@ -1,0 +1,41 @@
+{
+    "version": 3,
+    "vendor": {
+        "conan": {}
+    },
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 15,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "conan-gcc-13-x86_64-gnu17-release",
+            "displayName": "'conan-gcc-13-x86_64-gnu17-release' config",
+            "description": "'conan-gcc-13-x86_64-gnu17-release' configure using 'Ninja' generator",
+            "generator": "Ninja",
+            "cacheVariables": {
+                "CMAKE_POLICY_DEFAULT_CMP0091": "NEW",
+                "CMAKE_BUILD_TYPE": "Release"
+            },
+            "toolchainFile": "generators/conan_toolchain.cmake",
+            "binaryDir": "/home/becker/mac/testing/conan_doctest/test_package/build/gcc-13-x86_64-gnu17-release"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "conan-gcc-13-x86_64-gnu17-release",
+            "configurePreset": "conan-gcc-13-x86_64-gnu17-release",
+            "jobs": 1
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "conan-gcc-13-x86_64-gnu17-release",
+            "configurePreset": "conan-gcc-13-x86_64-gnu17-release",
+            "environment": {
+                "PATH": "/home/becker/.conan2/p/cmakeb7d33a9d18caf/p/bin:/home/becker/.conan2/p/ninja78ae65fa622a3/p/bin:$penv{PATH}"
+            }
+        }
+    ]
+}

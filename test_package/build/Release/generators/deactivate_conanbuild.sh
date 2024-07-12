@@ -1,0 +1,1 @@
+. "/home/becker/mac/testing/conan_doctest/test_package/build/Release/generators/deactivate_conanbuildenv-release-x86_64.sh"

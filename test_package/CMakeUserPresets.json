@@ -1,0 +1,11 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "build/gcc-13-x86_64-gnu17-release/generators/CMakePresets.json",
+        "build/Release/generators/CMakePresets.json",
+        "build/apple-clang-15-armv8-17-debug/generators/CMakePresets.json"
+    ]
+}

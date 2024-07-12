@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/becker/mac/testing/conan_doctest/build/Release",
+  "command": "/usr/bin/c++ -I/home/becker/mac/testing/conan_doctest/include -m64 -O3 -DNDEBUG -std=gnu++11 -fPIC -o CMakeFiles/conan_doctest.dir/src/conan_doctest.cpp.o -c /home/becker/mac/testing/conan_doctest/src/conan_doctest.cpp",
+  "file": "/home/becker/mac/testing/conan_doctest/src/conan_doctest.cpp",
+  "output": "CMakeFiles/conan_doctest.dir/src/conan_doctest.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/becker/mac/testing/conan_doctest/test_package/build/gcc-13-x86_64-gnu17-release/CMakeFiles/doctest_config.dir
+/home/becker/mac/testing/conan_doctest/test_package/build/gcc-13-x86_64-gnu17-release/CMakeFiles/edit_cache.dir
+/home/becker/mac/testing/conan_doctest/test_package/build/gcc-13-x86_64-gnu17-release/CMakeFiles/rebuild_cache.dir

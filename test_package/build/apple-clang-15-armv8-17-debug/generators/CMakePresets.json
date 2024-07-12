@@ -1,0 +1,41 @@
+{
+    "version": 3,
+    "vendor": {
+        "conan": {}
+    },
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 15,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "conan-apple-clang-15-armv8-17-debug",
+            "displayName": "'conan-apple-clang-15-armv8-17-debug' config",
+            "description": "'conan-apple-clang-15-armv8-17-debug' configure using 'Ninja' generator",
+            "generator": "Ninja",
+            "cacheVariables": {
+                "CMAKE_POLICY_DEFAULT_CMP0091": "NEW",
+                "CMAKE_BUILD_TYPE": "Debug"
+            },
+            "toolchainFile": "generators/conan_toolchain.cmake",
+            "binaryDir": "/Users/becker/Linux/testing/conan_doctest/test_package/build/apple-clang-15-armv8-17-debug"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "conan-apple-clang-15-armv8-17-debug",
+            "configurePreset": "conan-apple-clang-15-armv8-17-debug",
+            "jobs": 8
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "conan-apple-clang-15-armv8-17-debug",
+            "configurePreset": "conan-apple-clang-15-armv8-17-debug",
+            "environment": {
+                "PATH": "/Users/becker/.conan2/p/cmakee847bd239a979/p/CMake.app/Contents/bin:/Users/becker/.conan2/p/b/ninja09a44cda4cfd0/p/bin:$penv{PATH}"
+            }
+        }
+    ]
+}
